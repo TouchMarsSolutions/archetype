@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.springframework.social</groupId>
+  <artifactId>spring-social-wechat-application</artifactId>
+  <version>2.0.0.BUILD-SNAPSHOT</version>
+  <versioning>
+    <versions>
+      <version>2.0.0.BUILD-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150404231519</lastUpdated>
+  </versioning>
+</metadata>
