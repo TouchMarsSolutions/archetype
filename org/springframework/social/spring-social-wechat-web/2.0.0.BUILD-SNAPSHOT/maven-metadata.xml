@@ -5,9 +5,9 @@
   <version>2.0.0.BUILD-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20150418.045412</timestamp>
-      <buildNumber>15</buildNumber>
+      <timestamp>20150418.045924</timestamp>
+      <buildNumber>16</buildNumber>
     </snapshot>
-    <lastUpdated>20150418045412</lastUpdated>
+    <lastUpdated>20150418045924</lastUpdated>
   </versioning>
 </metadata>
