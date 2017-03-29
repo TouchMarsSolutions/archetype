@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>spring-security-oauth2-client-generic-grant-type</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Spring OAuth2 Client using generic field names of client credentials grant type</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
