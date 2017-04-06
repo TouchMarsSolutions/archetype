@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>org.springframework</groupId>
-  <artifactId>spring-web-httpmessageconverter-json-extension</artifactId>
+  <artifactId>spring-web-client-extension</artifactId>
   <versioning>
     <release>0.0.1.RELEASE</release>
     <versions>
       <version>0.0.1.RELEASE</version>
     </versions>
-    <lastUpdated>20170406052847</lastUpdated>
+    <lastUpdated>20170406060129</lastUpdated>
   </versioning>
 </metadata>

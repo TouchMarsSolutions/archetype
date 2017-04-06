@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.springframework</groupId>
-	<artifactId>spring-web-httpmessageconverter-json-extension</artifactId>
+	<artifactId>spring-web-client-extension</artifactId>
 	<version>0.0.1.RELEASE</version>
 	<packaging>jar</packaging>
 
-	<name>spring-web-httpmessageconverter-json-extension</name>
+	<name>spring-web-client-extension</name>
 	<description>Spring Web HttpMessageConverter for Jackson2 Extension</description>
 
 	<parent>
