@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.springframework.security.oauth</groupId>
-	<artifactId>spring-security-oauth2-client-generic-grant-type</artifactId>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-web-httpmessageconverter-json-extension</artifactId>
 	<version>0.0.1.RELEASE</version>
 	<packaging>jar</packaging>
 
-	<name>spring-security-oauth2-client-generic-grant-type</name>
-	<description>Spring OAuth2 Client using generic field names of client credentials grant type</description>
+	<name>spring-web-httpmessageconverter-json-extension</name>
+	<description>Spring Web HttpMessageConverter for Jackson2 Extension</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -26,9 +26,9 @@
 
 	<dependencies>
 		<dependency>
-            <groupId>org.springframework.security.oauth</groupId>
-            <artifactId>spring-security-oauth2</artifactId>
-        </dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
 	</dependencies>
 
 	<distributionManagement>
@@ -39,5 +39,6 @@
 			<layout>default</layout>
 		</repository>
 	</distributionManagement>
+
 
 </project>
