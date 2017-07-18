@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>technology.touchmars</groupId>
+  <artifactId>spring-security-oauth2-client-wechat</artifactId>
+  <versioning>
+    <release>0.0.2.RELEASE</release>
+    <versions>
+      <version>0.0.2.RELEASE</version>
+    </versions>
+    <lastUpdated>20170718211239</lastUpdated>
+  </versioning>
+</metadata>
