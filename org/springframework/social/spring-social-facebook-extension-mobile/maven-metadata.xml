@@ -3,11 +3,12 @@
   <groupId>org.springframework.social</groupId>
   <artifactId>spring-social-facebook-extension-mobile</artifactId>
   <versioning>
-    <release>0.0.2.RELEASE</release>
+    <release>0.0.3.RELEASE</release>
     <versions>
       <version>0.0.1.RELEASE</version>
       <version>0.0.2.RELEASE</version>
+      <version>0.0.3.RELEASE</version>
     </versions>
-    <lastUpdated>20170724045329</lastUpdated>
+    <lastUpdated>20170731045018</lastUpdated>
   </versioning>
 </metadata>
