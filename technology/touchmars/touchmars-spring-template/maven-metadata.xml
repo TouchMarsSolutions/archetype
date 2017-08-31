@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>technology.touchmars</groupId>
+  <artifactId>touchmars-spring-template</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20170831042316</lastUpdated>
+  </versioning>
+</metadata>
