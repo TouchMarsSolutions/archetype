@@ -1,0 +1,199 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>technology.touchmars</groupId>
+	<artifactId>touchmars-spring-template</artifactId>
+	<version>0.0.7-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	
+	<name>touchmars-spring-template</name>
+	<description>Touch Mars Solutions Inc. - provide template for spring based project</description>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>		
+		<java.version>1.8</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <swagger-core-version>1.5.16</swagger-core-version>
+        <wechat.client.version>0.0.1.RELEASE</wechat.client.version>
+        <hibernate.version>5.0.12.Final</hibernate.version>
+        <spring-boot.version>1.5.8.RELEASE</spring-boot.version>
+        <spring-cloud.version>Dalston.SR4</spring-cloud.version>
+        <spring-io.version>Brussels-SR5</spring-io.version>
+        <wechat-client-mini-version>1.0.1-SNAPSHOT</wechat-client-mini-version>
+        <spring-social-facebook-extension-mobile-version>0.0.3.RELEASE</spring-social-facebook-extension-mobile-version>
+        <commons-lang.version>3.6</commons-lang.version>
+	</properties>
+	
+    <dependencies>
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-social-facebook</artifactId>
+		</dependency>	
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-social-twitter</artifactId>
+		</dependency>				
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>				
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		<dependency>
+	    		<groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-spatial</artifactId>
+		    <version>${hibernate.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.7.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>		
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-facebook-extension-mobile</artifactId>
+			<version>${spring-social-facebook-extension-mobile-version}</version>
+		</dependency>
+
+        <dependency>
+        		<groupId>technology.touchmars</groupId>
+        		<artifactId>wechat-client-mini</artifactId>
+        		<version>${wechat-client-mini-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-core</artifactId>
+        </dependency>
+	    <dependency>
+		    <groupId>javax.interceptor</groupId>
+		    <artifactId>javax.interceptor-api</artifactId>		    
+		</dependency>
+		<dependency>
+		   	<groupId>org.apache.commons</groupId>
+		   	<artifactId>commons-text</artifactId>
+		   	<version>1.1</version>
+		</dependency>
+		<dependency>
+		     <groupId>com.google.api-client</groupId>
+		     <artifactId>google-api-client</artifactId>
+		     <version>1.22.0</version>
+		</dependency>
+<!-- 	    <dependency> -->
+<!--             <groupId>org.springframework.boot</groupId> -->
+<!--             <artifactId>spring-boot-starter-test</artifactId> -->
+<!--             <scope>test</scope> -->
+<!--         </dependency>   -->
+        <dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-devtools</artifactId>
+	        <optional>true</optional>
+	    </dependency>  
+    </dependencies>   
+    
+    <build>
+	    <plugins>
+	        <plugin>
+	            <groupId>org.springframework.boot</groupId>
+	            <artifactId>spring-boot-maven-plugin</artifactId>
+	        </plugin>
+	    </plugins>
+	</build> 
+    
+    <dependencyManagement>
+    		<dependencies>
+             <dependency>
+	            <groupId>org.springframework.cloud</groupId>
+	            <artifactId>spring-cloud-dependencies</artifactId>
+	            <version>${spring-cloud.version}</version>
+	            <type>pom</type>
+	            <scope>import</scope>
+	        </dependency>
+	        <dependency>
+	            <groupId>io.spring.platform</groupId>
+	            <artifactId>platform-bom</artifactId>
+	            <version>${spring-io.version}</version>
+	            <type>pom</type>
+	            <scope>import</scope>
+	        </dependency>
+	        <dependency>
+				<!-- Import dependency management from Spring Boot -->
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>${spring-boot.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			
+         </dependencies>
+    </dependencyManagement>
+    
+    <distributionManagement>
+		<repository>
+			<id>archetype.local</id>
+			<name>archetype.local</name>
+			<url>${archetype.repo}</url>
+			<layout>default</layout>
+		</repository>
+	</distributionManagement>
+    
+    <repositories>
+        <repository>
+            <id>github</id>
+            <name>github archetype</name>
+            <url>https://raw.githubusercontent.com/jhcao23/archetype/master</url>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+    
+</project>
