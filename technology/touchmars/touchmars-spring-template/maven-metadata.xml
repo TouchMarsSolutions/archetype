@@ -16,7 +16,10 @@
       <version>0.0.10-SNAPSHOT</version>
       <version>0.0.11-SNAPSHOT</version>
       <version>0.0.12-SNAPSHOT</version>
+      <version>0.0.13-SNAPSHOT</version>
+      <version>0.0.14-SNAPSHOT</version>
+      <version>0.0.15-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20171101185508</lastUpdated>
+    <lastUpdated>20171127174555</lastUpdated>
   </versioning>
 </metadata>

@@ -3,11 +3,12 @@
   <groupId>org.springframework.security.oauth</groupId>
   <artifactId>spring-security-oauth2-client-generic-grant-type</artifactId>
   <versioning>
-    <release>0.0.2.RELEASE</release>
+    <release>0.0.3.RELEASE</release>
     <versions>
       <version>0.0.1.RELEASE</version>
       <version>0.0.2.RELEASE</version>
+      <version>0.0.3.RELEASE</version>
     </versions>
-    <lastUpdated>20170718204945</lastUpdated>
+    <lastUpdated>20180308204529</lastUpdated>
   </versioning>
 </metadata>
