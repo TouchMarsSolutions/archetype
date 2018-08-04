@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>technology.touchmars</groupId>
+  <artifactId>touchmars-spring-template-kboot2-mvc</artifactId>
+  <version>2.1.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180802.075649</timestamp>
+      <buildNumber>4</buildNumber>
+    </snapshot>
+    <lastUpdated>20180802075649</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.1.0-20180802.075649-4</value>
+        <updated>20180802075649</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.1.0-20180802.075649-4</value>
+        <updated>20180802075649</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>2.1.0-20180802.075649-4</value>
+        <updated>20180802075649</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>2.1.0-20180802.075649-4</value>
+        <updated>20180802075649</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
