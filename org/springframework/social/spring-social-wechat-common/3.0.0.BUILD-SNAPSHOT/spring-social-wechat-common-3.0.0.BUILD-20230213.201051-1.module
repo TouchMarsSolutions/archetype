@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.social",
+    "module": "spring-social-wechat-common",
+    "version": "3.0.0.BUILD-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-social-wechat-common-3.0.0.BUILD-SNAPSHOT.jar",
+          "url": "spring-social-wechat-common-3.0.0.BUILD-SNAPSHOT.jar",
+          "size": 32305,
+          "sha512": "c877b4eab7a0757d4b28e6a6a5f11f51e53bb428f5c9986d527f67125460ffe00b664051b96a2c39bb11ed8dcc903d72256d2dac3db0eded662a9fe933a5f0f7",
+          "sha256": "a5011ecf9753664c50edd29c2ff259a23e1e1999fd028d86c847dc83a7d06eac",
+          "sha1": "2e077e4509d38e3ae485ff59c674f545b17b4bcc",
+          "md5": "5a5ab0863c45043885280cdf3c46d470"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.social",
+          "module": "spring-social-core",
+          "version": {
+            "requires": "1.1.4.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.social",
+          "module": "spring-social-config",
+          "version": {
+            "requires": "1.1.4.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.social",
+          "module": "spring-social-security",
+          "version": {
+            "requires": "1.1.4.RELEASE"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-social-wechat-common-3.0.0.BUILD-SNAPSHOT.jar",
+          "url": "spring-social-wechat-common-3.0.0.BUILD-SNAPSHOT.jar",
+          "size": 32305,
+          "sha512": "c877b4eab7a0757d4b28e6a6a5f11f51e53bb428f5c9986d527f67125460ffe00b664051b96a2c39bb11ed8dcc903d72256d2dac3db0eded662a9fe933a5f0f7",
+          "sha256": "a5011ecf9753664c50edd29c2ff259a23e1e1999fd028d86c847dc83a7d06eac",
+          "sha1": "2e077e4509d38e3ae485ff59c674f545b17b4bcc",
+          "md5": "5a5ab0863c45043885280cdf3c46d470"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.social",
+    "module": "spring-social-wechat-web",
+    "version": "3.0.0.BUILD-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-social-wechat-web-3.0.0.BUILD-SNAPSHOT.jar",
+          "url": "spring-social-wechat-web-3.0.0.BUILD-SNAPSHOT.jar",
+          "size": 50783,
+          "sha512": "d71c6d13699b17fd371bfb64d8da54dce390c4387d3db14fb5a0d428c658af42a4ab00577cd1ff8b8ebe2d75dd7bf658b8bf8495f8cb647e706fd26a1498cf2d",
+          "sha256": "fef6d1a0fd35aba02509231ddf54960387c2e443fb8ef11f5ad57fed286917d7",
+          "sha1": "47f5934adae64210864a89a872e339526e67b218",
+          "md5": "595626c28792295e5015aed991becebe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-web",
+          "version": {
+            "requires": "4.3.6.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-webmvc",
+          "version": {
+            "requires": "4.3.6.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.social",
+          "module": "spring-social-core",
+          "version": {
+            "requires": "1.1.4.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-crypto",
+          "version": {
+            "requires": "4.2.1.RELEASE"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "org.codehaus.woodstox",
+          "module": "woodstox-core-asl",
+          "version": {
+            "requires": "4.4.1"
+          }
+        },
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-social-wechat-web-3.0.0.BUILD-SNAPSHOT.jar",
+          "url": "spring-social-wechat-web-3.0.0.BUILD-SNAPSHOT.jar",
+          "size": 50783,
+          "sha512": "d71c6d13699b17fd371bfb64d8da54dce390c4387d3db14fb5a0d428c658af42a4ab00577cd1ff8b8ebe2d75dd7bf658b8bf8495f8cb647e706fd26a1498cf2d",
+          "sha256": "fef6d1a0fd35aba02509231ddf54960387c2e443fb8ef11f5ad57fed286917d7",
+          "sha1": "47f5934adae64210864a89a872e339526e67b218",
+          "md5": "595626c28792295e5015aed991becebe"
+        }
+      ]
+    }
+  ]
+}
